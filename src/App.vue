@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Slider</router-link> |
+      <router-link to="/matrix">Css Matrix</router-link> |
+      <router-link to="/Parser">Parser</router-link> |
+      <router-link to="/Reverse">Reverse</router-link>
     </div>
     <router-view/>
   </div>
@@ -15,6 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
 }
 
 #nav {
@@ -28,5 +31,8 @@
       color: #42b983;
     }
   }
+}
+body,html{
+  background:#f2f3f5!important;
 }
 </style>
